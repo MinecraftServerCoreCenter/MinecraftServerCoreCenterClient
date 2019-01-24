@@ -7,3 +7,4 @@ while True:
     print('download [type] [releases]')
   elif command[1] == 'download':
     if command[2] == '':
+      pass
