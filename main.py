@@ -2,9 +2,9 @@ print('welcome')
 print('please input command')
 while True:
   command = input('>> ')
-  if command == 'help':
+  if command[0] == 'help':
     print('===========help menu===========')
     print('download [type] [releases]')
-  elif command[1] == 'download':
-    if command[2] == '':
+  elif command[0] == 'download':
+    if command[1] == '':
       pass
